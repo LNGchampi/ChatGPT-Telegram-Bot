@@ -7,7 +7,7 @@ import openai
 #OpenAI API key
 aienv = os.getenv('OPENAI_KEY')
 if aienv == None:
-    openai.api_key = "ENTER YOUR API KEY HERE"
+    openai.api_key = "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"
 else:
     openai.api_key = aienv
 print(aienv)
@@ -15,7 +15,7 @@ print(aienv)
 #Telegram bot key
 tgenv = os.getenv('TELEGRAM_KEY')
 if tgenv == None:
-    tgkey = "ENTER YOUR TELEGRAM TOKEN HERE"
+    tgkey = "6126210847:AAEX5Lu3Q4C31xYykQ4mJp3tmJLaf1cVLJk"
 else:
     tgkey = tgenv
 print(tgenv)
